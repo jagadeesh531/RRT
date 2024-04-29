@@ -1,0 +1,28 @@
+Table{
+    margin: auto;
+    flex-direction: column;
+}
+
+Table  th{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+
+Table  td{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    color: red;
+}
+
+.load{
+    text-align: center;
+    color: maroon;
+    font-weight: bold;
+}
+
+h4{
+    text-align: center;
+}
