@@ -1,0 +1,27 @@
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+}
+
+.input-lines {
+  width: 60%;
+  height: 55px;
+  margin: 4px;
+  padding: 3px;
+  outline: none;
+  font-size: 20px;
+}
+
+p {
+  color: tomato;
+  font-size: 20px;
+}
+
+h4 {  
+  font-weight: bold !important;
+  font-size: 25px !important;
+}
