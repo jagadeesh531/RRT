@@ -6,6 +6,7 @@ import Gallery from "./components/NavSection/Gallery";
 import Contact from "./components/NavSection/Contact";
 import NoPage from "./components/NavSection/NoPage";
 import Navv from "./components/NavSection/Navv";
+import UserActions from "./components/NavSection/UserActions";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/user-actions" element={<UserActions />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </div>
