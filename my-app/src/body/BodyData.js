@@ -25,7 +25,7 @@ export default function BodyData() {
   }, []);
   return (
     <div>
-      <h4>Users Data</h4>
+      <h4>User Details.</h4>
       {users?.length > 0 ? (
         <Table striped>
           <thead>

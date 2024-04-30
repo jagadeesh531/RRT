@@ -119,7 +119,7 @@ export default function Contact() {
             onChange={handleChange}
             className="input-lines"
           />
-          {error.pincode && <p>{error.pincode}</p>}<br />
+          {error.pincode && <p>{error.pincode}</p>}
           <Button type="submit" variant="primary">
             Submit
           </Button>{" "}

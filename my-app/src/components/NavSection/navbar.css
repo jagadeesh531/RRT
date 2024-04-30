@@ -10,10 +10,6 @@
     font-size: 25px;
 }
 
-.lin:hover{
-    color: maroon; 
-    border-bottom: 5px solid white;
-    border-radius: 8px;
-    transition: 0.5s ease;
-    height: 40px;
-}
+
+
+

@@ -14,6 +14,7 @@ export default function Navv() {
           <Link to="/about" className="lin">About</Link>
           <Link to="/gallery" className="lin">Gallery</Link>
           <Link to="/contact" className="lin">Contact</Link>
+          <Link to="/user-actions" className="lin">UserActions</Link>
         </Nav>
       </Navbar>
     </div>
