@@ -7,6 +7,8 @@ import Contact from "./components/NavSection/Contact";
 import NoPage from "./components/NavSection/NoPage";
 import Navv from "./components/NavSection/Navv";
 import UserActions from "./components/NavSection/UserActions";
+import DropDown from "./Dropdown";
+import Counting from "./Counting";
 
 function App() {
   return (
@@ -18,9 +20,11 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/user-actions" element={<UserActions />} />
+        <Route path="/user-actions" element={<UserActions />} />        
+        <Route path="/counter" element={<Counting />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
+      {/* <DropDown /> */}
     </div>
   );
 }
